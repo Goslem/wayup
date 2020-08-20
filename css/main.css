@@ -1,0 +1,42 @@
+.logo {
+    width: 150px;
+}
+
+.introduction {
+    color: red;
+}
+
+.introduction_text {
+    width: 100px;
+    background-color: #0000FE;
+    color: #fff;
+    margin-bottom: 100px;
+}
+
+.red_text {
+    color: red;
+}
+
+.title {
+    background-color: #008001;
+    color: #fff;
+    padding: 5px;
+}
+
+.link {
+    color: #604FF1;
+}
+
+.title_padding {
+    padding: 50px;
+}
+
+.form_title {
+    text-align: center;
+    width: 590px;
+}
+
+.list li {
+    padding: 4px 0;
+    border: 1px solid #000;
+}
