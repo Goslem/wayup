@@ -25,6 +25,8 @@ p {
     max-width: 1230px;
     padding: 0 15px;
     margin: 0 auto;
+    display: flex;
+    flex-direction: column;
 }
 
 
@@ -35,6 +37,10 @@ p {
     padding-bottom: 72px;
     background: linear-gradient(135deg,#4ebefe, #378fd9);
     color: #fff;
+}
+
+.logo {
+    width: 98px;
 }
 
 .wrapper {
@@ -165,4 +171,62 @@ p {
     color: #fff;
     text-align: center;
     font-size: 14px;
+}
+
+@media screen and (max-width: 1200px) {
+    .logo {
+        margin: 0 auto;
+    }
+
+    .wrapper {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .offer {
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .skills {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .skill {
+        margin-bottom: 55px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .offer {
+        width: 100%;
+    }
+
+    .suitcases {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .intro {
+        width: 100%;
+    }
+    
+    .skill {
+        width: 100%;
+    }
+
+    .input {
+        width: 100%;
+    }
+
+    .btn-form {
+        width: 100%;
+    }
 }
