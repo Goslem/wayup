@@ -1,42 +1,168 @@
-.logo {
-    width: 150px;
+body {
+    margin: 0;
+    padding: 0;
+    font-size: 15px;
+    font-family: 'Open Sans', sans-serif;
 }
 
-.introduction {
-    color: red;
+* {
+    box-sizing: border-box;
 }
 
-.introduction_text {
-    width: 100px;
-    background-color: #0000FE;
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 700;
+}
+
+p {
+    line-height: 1.69em;
+    margin: 0;
+}
+
+.container {
+    width: 100%;
+    max-width: 1230px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+
+ /* Header */
+
+.header {
+    padding-top: 62px;
+    padding-bottom: 72px;
+    background: linear-gradient(135deg,#4ebefe, #378fd9);
     color: #fff;
-    margin-bottom: 100px;
 }
 
-.red_text {
-    color: red;
+.wrapper {
+    margin-top: 11px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.offer {
+    width: 557px;
 }
 
 .title {
-    background-color: #008001;
-    color: #fff;
-    padding: 5px;
+    font-size: 37px;
+    line-height: 1.32em;
 }
 
-.link {
-    color: #604FF1;
+.title span {
+    font-size: 57px;
+    line-height: 1.28em;
 }
 
-.title_padding {
-    padding: 50px;
+.intro {
+    margin-top: 29px;
+    margin-bottom: 53px;
+    width: 400px;
+    font-size: 16px;
+    line-height: 1.70em;
 }
 
-.form_title {
+.btn {
+    padding: 20px 30px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    font-weight: 900;
+    line-height: 1.66em;
+    color: #2e2a1b;
+    text-decoration: none;
+    background-color: #FFD500;
+    transition: background-color 0.4s ease;
+}
+
+.btn:hover {
+    background-color: #ddb803;
+}
+
+
+/* Learn */
+
+.learn {
+    padding-top: 110px;
+    padding-bottom: 120px;
+}
+
+.section-title {
+    font-size: 30px;
     text-align: center;
-    width: 590px;
 }
 
-.list li {
-    padding: 4px 0;
-    border: 1px solid #000;
+.skills {
+    margin-top: 73px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.skill {
+    width: 290px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.skill-title {
+    margin-top: 23px;
+    margin-bottom: 14px;
+
+    font-size: 19px;
+}
+
+.skill-text {
+    font-size: 15px;
+    line-height: 1.46em;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+
+/* Mail */
+
+.mail {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background-color: #ecf3f8;
+}
+
+.form {
+    margin-top: 60px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.input {
+    margin-bottom: 18px;
+    padding: 16px 25px;
+    width: 340px;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 15px;
+    color: #201b2d;
+    border: 1px solid #bbbbbb;
+    border-radius: 3px;
+}
+
+.btn-form {
+    border: 0;
+    width: 340px;
+}
+
+/* Footer */
+
+.footer {
+    padding: 61px 0;
+    background-color: #164d7a;
+}
+
+.credits {
+    color: #fff;
+    text-align: center;
+    font-size: 14px;
 }
