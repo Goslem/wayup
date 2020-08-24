@@ -104,6 +104,7 @@ p {
 .skills {
     margin-top: 73px;
     display: flex;
+    align-items: flex-end;
     justify-content: space-between;
 }
 
