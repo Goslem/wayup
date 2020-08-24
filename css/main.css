@@ -3,6 +3,7 @@ body {
     padding: 0;
     font-size: 15px;
     font-family: 'Open Sans', sans-serif;
+    overflow-x: hidden;
 }
 
 * {
@@ -27,6 +28,10 @@ p {
     margin: 0 auto;
     display: flex;
     flex-direction: column;
+}
+
+.animated {
+    opacity: 0;
 }
 
 
@@ -104,8 +109,8 @@ p {
 .skills {
     margin-top: 73px;
     display: flex;
-    align-items: flex-end;
     justify-content: space-between;
+    align-items: flex-end;
 }
 
 .skill {
